@@ -1,0 +1,146 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --web-color: #2196f3;
+  --accent-color: #2196f3;
+  --primary-background-color: #f5f5f5;
+  --logo-footer-color: rgba(255, 255, 255, 1);
+  --web-footer-color: rgba(33, 150, 243, 1);
+  --white-color: #ffffff;
+  --black-logo-color: #000000;
+  --team-background-color: #f5f4fa;
+  --secondary-background-color: #2f303a;
+  --address-link-color: rgba(255, 255, 255, 0.6);
+  --button-secondary-background-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--black-logo-color);
+}
+
+.web {
+  color: var(--web-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.web:hover,
+.web:focus {
+  color: var(--accent-color);
+}
+/* навігація */
+.nav .link {
+  color: var(--title-text-color);
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--accent-color);
+}
+/* контакти */
+.contact .link {
+  color: var(--primary-text-color);
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  color: var(--accent-color);
+}
+/*банер*/
+.banner {
+  background-color: var(--secondary-background-color);
+}
+
+.banner-title {
+  color: var(--white-color);
+}
+
+/* особливості*/
+.features .features-title {
+  color: var(--title-text-color);
+}
+/* чим ми займаємося*/
+.job .job-title {
+  color: var(--title-text-color);
+}
+/* наша команда */
+.team {
+  background-color: var(--team-background-color);
+}
+
+.team-title {
+  color: var(--title-text-color);
+}
+/* футер */
+.footer {
+  background-color: var(--secondary-background-color);
+}
+.footer .logo {
+  color: var(--logo-footer-color);
+}
+
+.footer .web {
+  color: var(--web-footer-color);
+}
+
+.footer .logo:hover,
+.footer .logo:focus {
+  color: var(--accent-color);
+}
+
+.address-list .address-city {
+  color: var(--white-color);
+}
+
+.address-list .address-city:hover,
+.address-list .address-city:focus {
+  color: var(--accent-color);
+}
+
+.address-list .address-link {
+  color: var(--address-link-color);
+}
+
+.address-list .address-link:hover,
+.address-list .address-link:focus {
+  color: var(--accent-color);
+}
+/* кнопки */
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.button.secondary {
+  background-color: var(--button-secondary-background-color);
+  color: var(--title-text-color);
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
