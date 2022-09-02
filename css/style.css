@@ -49,6 +49,11 @@ body {
 .nav .link:focus {
   color: var(--accent-color);
 }
+
+.nav .link.current {
+  color: var(--accent-color);
+}
+
 /* контакти */
 .contact .link {
   color: var(--primary-text-color);
