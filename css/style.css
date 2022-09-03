@@ -1,17 +1,14 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --web-color: #2196f3;
   --accent-color: #2196f3;
   --primary-background-color: #ffffff;
   --logo-footer-color: rgba(255, 255, 255, 1);
   --web-footer-color: rgba(33, 150, 243, 1);
-  --white-color: #ffffff;
   --black-logo-color: #000000;
   --team-background-color: #f5f4fa;
   --secondary-background-color: #2f303a;
   --address-link-color: rgba(255, 255, 255, 0.6);
-  --button-secondary-background-color: #f5f4fa;
   --button-active: #188CE8;
 }
 
@@ -36,7 +33,7 @@ body {
 }
 
 .web {
-  color: var(--web-color);
+  color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -92,7 +89,7 @@ body {
 }
 
 .banner .banner-title {
-  color: var(--white-color);
+  color: var(--primary-background-color);
   font-weight: 900;
   font-size: 44px;
   text-align: center;
@@ -140,7 +137,7 @@ body {
   background-color: var(--team-background-color);
 }
 .team .team-item {
-  background-color: var(--white-color);
+  background-color: var(--primary-background-color);
 }
 
 .team .team-title {
@@ -193,7 +190,7 @@ body {
 }
 
 .address-list .address-city {
-  color: var(--white-color);
+  color: var(--primary-background-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.8;
@@ -223,7 +220,7 @@ body {
 
 .button.primary {
   background-color: var(--accent-color);
-  color: var(--white-color);
+  color: var(--primary-background-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -237,7 +234,7 @@ body {
 }
 
 .button.secondary {
-  background-color: var(--button-secondary-background-color);
+  background-color: var(--team-background-color);
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -247,7 +244,7 @@ body {
 .button.secondary:hover,
 .button.secondary:focus {
   background-color: var(--accent-color);
-  color: var(--white-color);
+  color: var(--primary-background-color);
   cursor: pointer;
 }
 
