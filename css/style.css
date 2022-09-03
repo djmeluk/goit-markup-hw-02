@@ -220,6 +220,7 @@ body {
 
 .button.primary {
   background-color: var(--accent-color);
+  font-family: Roboto, sans-serif;
   color: var(--primary-background-color);
   font-weight: 700;
   font-size: 16px;
@@ -235,10 +236,11 @@ body {
 
 .button.secondary {
   background-color: var(--team-background-color);
+  font-family: Roboto, sans-serif;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .button.secondary:hover,
